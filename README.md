@@ -1,6 +1,6 @@
 # ControleDeBuffet
 
-1-criar modelo de buffet.
+1-criar modelo de buffet(churrasco,tradicional e massas).
 
 
 2-Escolher ingredientes.
