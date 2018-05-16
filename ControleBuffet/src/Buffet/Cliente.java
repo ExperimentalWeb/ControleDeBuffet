@@ -14,6 +14,16 @@ public class Cliente {
 	}
 
 
+	public double getIdade() {
+		return idade;
+	}
+
+
+	public void setIdade(double idade) {
+		this.idade = idade;
+	}
+
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
@@ -39,11 +49,12 @@ public class Cliente {
 	}
 
 
-	public Cliente(String nome, String telefone, String email) {
+	public Cliente(String nome, String telefone, String email, Double idade) {
 		
 		this.nome = nome;
 		this.telefone = telefone;
 		this.email = email;
+		this.idade  = idade;
 	}
 
 
